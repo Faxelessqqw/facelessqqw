@@ -138,14 +138,90 @@ int main()
     txRectangle   (570,290,620,340) ;
 
 
-    while (x1==100){
+    manI();
+    txSetColor (TX_LIGHTGREEN);
+    txSelectFont ("Times", 20);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (450, 250, "Finally returned from shift");
 
-      manI();
-      x1=x1-10 ;
 
-    }
+    Sleep(2000);
+    txSetColor(RGB(128,64,0));
+    txSetFillColor(RGB(128,64,0));
+    txRectangle(0,0,800,600);
+
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txLine(220,600,220,400);
+    txLine(720,600,720,400);
+    txLine(220,400,720,400);
+    txRectangle(600,250,700,400);
+
+    txSetColor(TX_YELLOW);
+    txSetFillColor(TX_YELLOW);
+    txCircle(385,260,50);
+
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txRectangle(270,270,500,600);
+
+    txSetColor (TX_LIGHTGREEN);
+    txSelectFont ("Times", 20);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (260, 100, "I should call the guys and let's play Dota");
+
+    Sleep(2000);
+    txSetColor (TX_WHITE);
+    txRectangle(0,0,800,600);
+    txSetColor (TX_GRAY);
+    txSetFillColor (TX_GRAY);
+    txRectangle(300,170,470,430);
+    txSetColor (TX_WHITE);
+    txSelectFont ("Times", 20);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (380, 300, "Discord");
 
 
+
+
+    Sleep(5000);
+    txSetColor(RGB(128,64,0));
+    txSetFillColor(RGB(128,64,0));
+    txRectangle(0,0,800,600);
+
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txLine(220,600,220,400);
+    txLine(720,600,720,400);
+    txLine(220,400,720,400);
+    txRectangle(600,250,700,400);
+
+    txSetColor(TX_YELLOW);
+    txSetFillColor(TX_YELLOW);
+    txCircle(385,260,50);
+
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txRectangle(270,270,500,600);
+
+    txSetColor (TX_WHITE);
+    txSelectFont ("Times", 20);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (380, 300, "Something is not loading, you need to read on the website");
+
+
+
+
+    Sleep(2000);
+    txSetColor (TX_WHITE);
+    txSetFillColor (TX_WHITE);
+    txRectangle(0,0,800,600);
+    txSetFillColor(TX_GRAY);
+    txRectangle(30,30,750,55);
+    txSetColor (TX_BLACK);
+    txSelectFont ("Times", 20);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (120, 33, "https://rkn.gov.ru/");
 
 
 
@@ -162,11 +238,3 @@ int main()
     txTextCursor (false);
     return 0;
     }
-
-
-
-
-
-
-
-
