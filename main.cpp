@@ -226,9 +226,136 @@ int main()
 
 
 
+    Sleep(2000);
+    txSetColor(RGB(128,64,0));
+    txSetFillColor(RGB(128,64,0));
+    txRectangle(0,0,800,600);
+
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txLine(220,600,220,400);
+    txLine(720,600,720,400);
+    txLine(220,400,720,400);
+    txRectangle(600,250,700,400);
+
+    txSetColor(TX_YELLOW);
+    txSetFillColor(TX_YELLOW);
+    txCircle(385,260,50);
+
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txRectangle(270,270,500,600);
+    txSetColor (TX_BLACK);
+    txSelectFont ("Times", 20);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (150, 33, "They also blocked discord");
+
+    Sleep(2000);
+    txRectangle(0,0,800,600);
+
+    txSetColor (TX_WHITE);
+    txSelectFont ("Times", 20);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (300, 33, "Looks like there's a wiring problem again");
+
+    Sleep(2000);
+    txSetColor(RGB(0,30,0));
+    txSetFillColor(RGB(0,30,0));
+
+    txRectangle(0,0,800,600);
 
 
 
+
+    txSetColor(RGB(157,141,0));
+    txSetFillColor(RGB(157,141,0));
+    txRectangle(580,100,700,220);
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+
+
+
+
+
+
+
+
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txRectangle(620,140,660,180);
+
+
+
+
+
+
+
+    txSetColor(RGB(157,141,0));
+    txSetFillColor(RGB(157,141,0));
+    txRectangle(240,400,140,300);
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txRectangle(210,370,170,330);
+
+
+
+
+
+
+
+    txSetColor(RGB(157,141,0));
+    txSetFillColor(RGB(157,141,0));
+    txRectangle(515,550,420,450);
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txRectangle(490,520,450,480);
+
+
+
+    Sleep(2000);
+    txSetColor(RGB(128,64,0));
+    txSetFillColor(RGB(128,64,0));
+    txRectangle(0,0,800,600);
+
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txLine(750,600,750,450);
+    txLine(340,450,750,450);
+    txLine(340,450,340,700);
+    txSetColor(TX_YELLOW);
+    txSetFillColor(TX_YELLOW);
+    txCircle(720,400,50);
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txRectangle(350,400,700,530);
+
+    txSetColor (TX_WHITE);
+    txSelectFont ("Times", 20);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (300, 33, "Phew it was just a dream");
+
+
+
+    Sleep(2000);
+    txSetColor(RGB(17,17,34));
+    txSetFillColor(RGB(17,17,34));
+    txRectangle(0,0,800,600);
+
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_WHITE);
+    txRectangle(300,130,500,500);
+    txSetColor(TX_BLACK);
+    txSetFillColor(TX_BLACK);
+    txSelectFont ("Times", 60);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (400, 150, "5:40");
+    txCircle(400,470,15);
+
+    txSetColor(TX_WHITE);
+    txSetFillColor(TX_WHITE);
+    txSelectFont ("Times", 20);
+    txSetTextAlign (TA_CENTER);
+    txTextOut (300, 33, "Time to go to work");
 
 
 
